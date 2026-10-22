@@ -27,5 +27,7 @@ int main()
     for(int i = 0; i < 3; i++){
         printf("%.6f ", c[i]);
     }
+
+    fclose(fp);
     return 0;
 }
